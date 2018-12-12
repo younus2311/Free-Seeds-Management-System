@@ -1,0 +1,83 @@
+body{
+
+}
+
+body#background1{
+	background: url(../images/background1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+body#background2{
+	background: url(../images/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+/*---------------- Common ----------------*/
+.btn{
+	cursor: pointer;
+}
+
+.btn-xs{
+	font-size: 10px;
+	padding: 5px;
+}
+
+/*------------ Navbar --------------*/
+nav .nav-item .nav-link{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: #EEE !important;
+}
+
+nav .nav-item.active .nav-link{
+	color: orange !important;
+	/*border-bottom: 2px dashed orange;*/
+}
+
+nav .navbar-brand{
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+nav .navbar-brand img{
+	filter: brightness(0) invert(1);
+}
+
+
+/*------------------- Modal ----------------------*/
+.modal-backdrop{
+	opacity: 0.4 !important;
+}
+
+.modal{
+	text-align: center;
+}
+
+.modal:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/*---------------- Project title -------------------*/
+.project-title{
+	margin: 150px 0;
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding: 30px 60px;
+}

@@ -1,0 +1,9 @@
+1. Install composer.
+2. modify .env
+3. create only database name in phpmyadmin like fsdm.
+4. open cmd. to run project type following command:
+	php artisan serve
+5. to create all tables in database, we have to migrate.
+	CMD:  php artisan migrate.
+
+6. Default admin password:  $2y$10$y17V0KyRnEHDWXYBf1c5Xuv.yEVpamhhDGfVk6V9Wpdwynsd/4dTm
